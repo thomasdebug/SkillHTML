@@ -26,10 +26,6 @@ body{
     font-weight: 400;
 }
 
-.headerButton:hover{
-    cursor: pointer;
-}
-
 input.menu-toggle,
 .hamburger {
     /*hamburger en menu-toggle checkbox zijn net zo groot en staan over elkaar heen, menu-toggle checkbox bovenaan*/
@@ -230,4 +226,15 @@ ul.mainNavList a.selected {
 
 .feet{
     background-color: grey;
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+li{
+    padding: 10px;
 }
